@@ -955,6 +955,13 @@ require('lazy').setup({
         position = 'right',
         width = 30,
       },
+      filesystem = {
+        filtered_items = {
+          visible = true,
+          hide_dotfiles = false,
+          hide_gitignored = false,
+        },
+      },
     },
   },
 
